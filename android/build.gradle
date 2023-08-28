@@ -45,7 +45,8 @@ android {
 
 dependencies {
     implementation 'com.android.billingclient:billing:5.1.0'
-    implementation files('jars/in-app-purchasing-2.0.76.jar')
+    // implementation files('jars/in-app-purchasing-2.0.76.jar')
+    implementation 'com.amazon.device:amazon-appstore-sdk:3.+'
     implementation 'androidx.annotation:annotation:1.6.0'
 }
 
